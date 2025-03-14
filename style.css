@@ -313,6 +313,7 @@ font-weight: 500;
 
     .foot {
         flex-direction: column;
+        gap: 10px;
     }
     .foot .col{
         width: 100%;
@@ -321,5 +322,6 @@ font-weight: 500;
 
     .foot .col a{
         display: block;
+        margin: 0;
     }
 }
