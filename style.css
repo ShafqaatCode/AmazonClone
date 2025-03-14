@@ -222,11 +222,16 @@ font-weight: 500;
     display: flex;
     gap: 40px;
     margin-top: 10px;
+
 }
 
 .product-slider .products img{
     max-width: 200px;
     min-width: 200px;
+}
+
+.product-slider .products::-webkit-scrollbar{
+    display: none;
 }
 
 @media (max-width:800px) {
