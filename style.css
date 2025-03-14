@@ -303,7 +303,7 @@ font-weight: 500;
     }
     footer button{
         font-size: 12px;
-        padding: 5px 5px;
+        padding: 0;
         cursor: pointer;
     }
 
