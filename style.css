@@ -310,4 +310,16 @@ font-weight: 500;
     .product-slider .products img{
         max-width: 150px;
     }
+
+    .foot {
+        flex-direction: column;
+    }
+    .foot .col{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+
+    .foot .col a{
+        display: block;
+    }
 }
