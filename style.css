@@ -256,6 +256,10 @@ font-weight: 500;
         display: none;
     }
 
+    .box-col{
+        max-width: 100%;
+    }
+
     .nav-language{
         display: none;
 
@@ -277,5 +281,13 @@ font-weight: 500;
 
     .nav-bottom p{
         text-wrap: nowrap;
+    }
+
+    .nav-cart h4{
+        display: none;
+    }
+
+    .nav-cart img{
+        width: 30px;
     }
 }
