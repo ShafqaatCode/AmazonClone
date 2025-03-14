@@ -225,8 +225,8 @@ font-weight: 500;
 }
 
 .product-slider .products img{
-    max-width: 250px;
-    min-width: 250px;
+    max-width: 200px;
+    min-width: 200px;
 }
 
 @media (max-width:800px) {
@@ -295,5 +295,14 @@ font-weight: 500;
     footer{
         flex-direction: column;
         gap: 20px;
+    }
+    footer button{
+        font-size: 12px;
+        padding: 5px 5px;
+        cursor: pointer;
+    }
+
+    .product-slider .products img{
+        max-width: 150px;
     }
 }
