@@ -180,6 +180,36 @@ nav{
 }
 
 
+.four-box{
+    background-color: #fff;
+    max-width: 24%;
+    min-width: 200px;
+}
+
+.four-box .img-set{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin: 10px 5px;
+    
+}
+
+.four-box .img-set .img-box{
+    /* border: 2px solid gray; */
+    max-width: 50%;
+}
+.four-box .img-set img{
+    max-width: 85%;
+    /* border: 2px solid; */
+}
+
+.four-box a{
+    font-size: 14px;
+color: #009999;
+font-weight: 500;
+}
+
+
 .product-slider{
     background-color: #fff;
     padding: 20px;
