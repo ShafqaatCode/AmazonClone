@@ -290,4 +290,10 @@ font-weight: 500;
     .nav-cart img{
         width: 30px;
     }
+
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
